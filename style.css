@@ -1,1 +1,40 @@
+/* style.css */
+body {
+    text-align: center;
+    margin-top: 100px;
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+}
 
+.button-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+button {
+    padding: 20px 40px;
+    font-size: 1.5em;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    transition: 0.3s;
+}
+
+#yesButton {
+    background-color: #4CAF50;
+}
+
+#yesButton:hover {
+    background-color: #45a049;
+}
+
+#noButton {
+    background-color: #FF5733;
+}
+
+#noButton:hover {
+    background-color: #e04d2d;
+}
